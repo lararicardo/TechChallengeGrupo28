@@ -30,6 +30,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 ```
 <linha de comando>
 ```
+
 <br> cd /opt/ </br>
 <br> git clone {URL_DO_REPOSITÓRIO} </br>
 <br> cd {NOME_PROJETO} </br>
