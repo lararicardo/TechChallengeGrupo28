@@ -30,11 +30,12 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 ```
 <linha de comando>
 ```
-cd /opt/
-git clone {URL_DO_REPOSITÓRIO}
-cd {NOME_PROJETO}
-./mvnw spring-boot:run
-curl -Ivvv http://localhost:8080/api/clientes
+
+<br> cd /opt/ </br>
+<br> git clone {URL_DO_REPOSITÓRIO} </br>
+<br> cd {NOME_PROJETO} </br>
+<br> ./mvnw spring-boot:run </br>
+<br> curl -Ivvv http://localhost:8080/api/clientes </br>
 
 ## :soon: Implementação futura
 
