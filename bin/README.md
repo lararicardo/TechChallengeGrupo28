@@ -34,11 +34,10 @@ cd /opt/
 git clone {URL_DO_REPOSITÓRIO}
 cd {NOME_PROJETO}
 ./mvnw spring-boot:run
-curl -Ivvv http://localhost:8080/api/clientes
+curl -Ivvv https://{URL}:8080/X
 
 ## :soon: Implementação futura
-
-Cadastro de clientes (Camada de apresentação).
+* O que será implementado na próxima sprint?
 
 ## :handshake: Colaboradores
 <table>
@@ -56,14 +55,6 @@ Cadastro de clientes (Camada de apresentação).
         <img style="height:auto;" src="https://avatars.githubusercontent.com/u/5578401?v=4" width="200" height="200" class="avatar avatar-user width-full border color-bg-default" alt="@lararicardo's">
 		<sub>
           <br>Ricardo R. Lara</br>
-        </sub>
-      </a>
-    </td>
-	<td align="center">
-      <a href="https://github.com/devopsjeffersantos">
-        <img style="height:auto;" src="https://avatars.githubusercontent.com/u/117692262?v=4" width="200" height="200" class="avatar avatar-user width-full border color-bg-default" alt="@devopsjeffersantos's">
-		<sub>
-          <br>Jefferson R. Santos</br>
         </sub>
       </a>
     </td>
