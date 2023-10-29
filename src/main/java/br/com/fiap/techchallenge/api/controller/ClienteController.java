@@ -33,4 +33,10 @@ public class ClienteController {
          return clienteService.createCliente(clienteDto.toEntity());
     }
 
+    @PutMapping("/{cnpj}")
+    public Cliente updateCliente(@RequestBody @NotNull ClienteDto clienteDto, @PathVariable("cnpj") String cnpj){
+        return clienteService.updateCliente(clienteDto.toEntity());
+    }
+
+
 }
