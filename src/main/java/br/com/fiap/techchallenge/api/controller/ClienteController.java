@@ -6,7 +6,6 @@ import br.com.fiap.techchallenge.domain.service.ClienteService;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -30,7 +29,7 @@ public class ClienteController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Cliente createCliente(@RequestBody @NotNull ClienteDto clienteDto) {
+    public Cliente addCliente(@RequestBody @NotNull ClienteDto clienteDto) {
          return clienteService.createCliente(clienteDto.toEntity());
     }
 
