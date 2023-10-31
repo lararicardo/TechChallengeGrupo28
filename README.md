@@ -26,16 +26,23 @@ A loja precisa implementar um sistema de logística eficiente que possa gerencia
 * Java, H2, Spring Boot, Maven e Angular.
 
 ## :rocket: Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
+Primeiramente realize o clone do projeto em seu computador:
+
 ```
-<linha de comando>
+git clone https://github.com/lararicardo/TechChallengeGrupo28.git
 ```
 
-<br> cd /opt/ </br>
-<br> git clone {URL_DO_REPOSITÓRIO} </br>
-<br> cd {NOME_PROJETO} </br>
-<br> ./mvnw spring-boot:run </br>
-<br> curl -Ivvv http://localhost:8080/api/clientes </br>
+cd TechChallengeGrupo28 </br>
+mvn spring-boot:run </br> </br>
+
+<b>Colletion para teste da api via Postman. Ela pode ser encontrada na pasta raiz do projeto. </b></br>
+Tech Challenge.postman_collection.json </br></br>
+
+<b> URL Padrão app Backend </b></br>
+http://localhost:8080/api/clientes </br></br>
+
+
+
 
 ## :soon: Implementação futura
 
@@ -68,6 +75,14 @@ Cadastro de clientes (Camada de apresentação).
         </sub>
       </a>
     </td>
+	<td align="center">
+      <a href="[https://github.com/devopsjeffersantos](https://github.com/Lukas-Barcellos)">
+        <img style="height:auto;" src="https://avatars.githubusercontent.com/u/117692262?v=4" width="200" height="200" class="avatar avatar-user width-full border color-bg-default" alt="@Lukas-Barcellos's">
+		<sub>
+          <br>Lukas Barcellos</br>
+        </sub>
+      </a>
+    </td>	  
   </tr>
 </table>
 
