@@ -23,7 +23,7 @@ A loja precisa implementar um sistema de logística eficiente que possa gerencia
 * <b>Gerenciamento de dados</b>: Funcionalidades responsáveis pelo manuseio dos dados de clientes, pacotes e entrega. Sendo os dados armazenados em banco de dados H2.
 
 ## :wrench: Tecnologias utilizadas
-* Java, H2, Spring Boot, Maven e Angular.
+* Java, H2, Spring Boot, Maven.
 
 ## :rocket: Rodando o projeto
 Primeiramente realize o clone do projeto em seu computador:
